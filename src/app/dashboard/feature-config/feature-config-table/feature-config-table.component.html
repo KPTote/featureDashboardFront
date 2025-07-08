@@ -1,0 +1,69 @@
+<div class="table-container__back-button">
+  <a href="/dashboard" (click)="clearStorage()">Atrás</a>
+</div>
+
+<div class="information-container">
+  <div>
+    <span>Ejecutado por:</span><span class="information-value">{{ configurationData.executedBy }}</span>
+  </div>
+  <div>
+    <span>Fecha y hora:</span
+    ><span class="information-value">{{ configurationData.dateTimeExecution }}</span>
+  </div>
+  <div>
+    <span>Navegador:</span><span class="information-value">{{ configurationData.browser}}</span>
+  </div>
+</div>
+
+<table class="table table-striped" [ngClass]="'feature-config-table-mobile'">
+  <tbody
+    *ngFor="let item of configurationData.configurationUsed"
+    class="config-table-mobile__body"
+  >
+    <tr>
+      <th scope="row">Código de servicio</th>
+      <td>{{ item.serviceCode }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Nombre</th>
+      <td>{{ item.name }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Estado</th>
+      <td>{{ item.enabled }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Tipo de configuración</th>
+      <td>{{ item.configType }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Descripción</th>
+      <td>{{ item.description }}</td>
+    </tr>
+    <br />
+  </tbody>
+</table>
+
+<table
+  class="table table-striped table-desktop"
+  [ngClass]="'feature-config-table-desktop'"
+>
+  <thead>
+    <tr>
+      <th scope="col">Código de servicio</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Tipo de configuración</th>
+      <th scope="col">Descripción</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of configurationData.configurationUsed">
+    <tr>
+      <td>{{ item.serviceCode }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.enabled }}</td>
+      <td>{{ item.configType }}</td>
+      <td>{{ item.description }}</td>
+    </tr>
+  </tbody>
+</table>

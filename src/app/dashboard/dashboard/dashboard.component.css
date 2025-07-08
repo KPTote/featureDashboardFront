@@ -1,0 +1,27 @@
+.search-container .hola {
+  max-width: 500px;
+}
+
+.table-container {
+  justify-content: center;
+  display: grid;
+  margin-top: 50px;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-container .hola {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1134px) {
+  .table-container {
+    margin-top: 50px;
+    padding: 20px;
+    overflow-x: scroll;
+    justify-content: unset;
+    display: grid;
+  }
+}

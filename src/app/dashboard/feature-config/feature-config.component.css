@@ -1,0 +1,33 @@
+.feature-config-table{
+  width: 100%;
+  max-width: 1200px;
+  overflow-x: scroll;
+}
+
+.feature-config-container .table-container {
+  margin-top: 50px;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.table-container__back-button{
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 50px;
+}
+
+@media (width >= 834px) {
+ .table-container__back-button{
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+
+.feature-config-table{
+  overflow-x: hidden;
+}
+}

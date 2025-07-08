@@ -1,0 +1,40 @@
+.table-mobile {
+  width: 100%;
+  max-width: 350px;
+}
+
+.table-mobile__body{
+  margin-bottom: 50px;
+
+}
+
+.table-desktop {
+  display: none;
+}
+
+.filter-no-result {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #f9b729;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (width >= 834px) {
+  .table-mobile {
+    display: none;
+  }
+
+  .table-desktop {
+    display: block;
+  }
+
+  .table-desktop .th-executed-by{
+    min-width: 180px;
+  }
+
+  .table-desktop .th-browser{
+    min-width: 560px;
+  }
+}

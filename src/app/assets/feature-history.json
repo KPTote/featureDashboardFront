@@ -1,0 +1,391 @@
+[
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "hsv-hsv",
+                "name": "Conexión regional",
+                "enabled": "false",
+                "configType": "Configuracion RemotaRemotaRemotaRemotaRemota",
+                "description": "Esta es una prueba Esta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una prueba"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "hola-mundo",
+                "name": "Validations",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": true,
+                "configType": "Configuracion Remota",
+                "description": "Ya es de noche"
+            }
+        ],
+        "featureProfile": "BISV",
+        "executedBy": "erodas@bytesw.com",
+        "dateTimeExecution": "2025-06-26T21:00:42.933Z",
+        "browser": "BRAVE"
+    },
+    {
+        "executedBy": "",
+        "dateTimeExecution": "",
+        "browser": ""
+    },
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "hsv-hsv",
+                "name": "Conexión regional",
+                "enabled": "false",
+                "configType": "Configuracion RemotaRemotaRemotaRemota",
+                "description": "Esta es una prueba Esta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una pruebaEsta es una prueba"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "hola-mundo",
+                "name": "Validations",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": true,
+                "configType": "Configuracion Remota",
+                "description": "Ya es de noche"
+            }
+        ],
+        "featureProfile": "BISV",
+        "executedBy": "erodas@bytesw.com",
+        "dateTimeExecution": "2025-06-26T20:29:25.744Z",
+        "browser": "BRAVE"
+    },
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "reg-connec",
+                "name": "Conexión regional",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": "Desarrollo realizado en BIPA"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "enableUserRecognitionValidations",
+                "name": "enableUserRecognitionValidations",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "securityProfileImprovement",
+                "name": "securityProfileImprovement",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "preApproved",
+                "name": "preApproved",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "product-request-ff",
+                "name": "product-request-ff",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "historial-ps",
+                "name": "historial-ps",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "web-cnelcl",
+                "name": "web-cnelcl",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "data-update",
+                "name": "Actualización de datos",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": "Desarrollo realizado en BIPA"
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            }
+        ],
+        "featureProfile": "BIPA",
+        "executedBy": "fserrano@bytesw.com",
+        "dateTimeExecution": "2025-07-02T16:05:37.688Z",
+        "browser": "{\"NAME\":\"CHROME\",\"VERSION\":\"137.0.0\",\"OPERATINGSYSTEM\":\"MAC OS\",\"MOBILE\":FALSE}"
+    },
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "hsv-hsv",
+                "name": "Conexión regional",
+                "enabled": "false",
+                "configType": "Configuracion Remota",
+                "description": "Esta es una prueba"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "hola-mundo",
+                "name": "Validations",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": true,
+                "configType": "Configuracion Remota",
+                "description": "Ya es de noche"
+            }
+        ],
+        "featureProfile": "BISV",
+        "executedBy": "erodas@bytesw.com",
+        "dateTimeExecution": "2025-06-26T21:23:04.803Z",
+        "browser": "BRAVE"
+    },
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "hsv-hsv",
+                "name": "Conexión regional",
+                "enabled": "false",
+                "configType": "Configuracion Remota",
+                "description": "Esta es una prueba"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "hola-mundo",
+                "name": "Validations",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": true,
+                "configType": "Configuracion Remota",
+                "description": "Ya es de noche"
+            }
+        ],
+        "featureProfile": "BISV",
+        "executedBy": "erodas@bytesw.com",
+        "dateTimeExecution": "2025-06-26T21:26:19.522Z",
+        "browser": "BRAVE"
+    },
+    {
+        "configurationUsed": [
+            {
+                "serviceCode": "hsv-hsv",
+                "name": "Conexión regional",
+                "enabled": "false",
+                "configType": "Configuracion Remota",
+                "description": "Esta es una prueba"
+            },
+            {
+                "serviceCode": "web-exttc",
+                "name": "web-exttc",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "stoken-bp",
+                "name": "stoken-bp",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "pro-pag",
+                "name": "pro-pag",
+                "enabled": "true",
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "adm-limit",
+                "name": "adm-limit",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "hola-mundo",
+                "name": "Validations",
+                "enabled": false,
+                "configType": "Configuracion Remota",
+                "description": ""
+            },
+            {
+                "serviceCode": "transf-int",
+                "name": "transf-int",
+                "enabled": true,
+                "configType": "Configuracion Remota",
+                "description": "Ya es de noche"
+            }
+        ],
+        "featureProfile": "BISV",
+        "executedBy": "erodas@bytesw.com",
+        "dateTimeExecution": "2025-06-26T20:41:49.061Z",
+        "browser": "BRAVE"
+    }
+]
