@@ -14,6 +14,8 @@ spec:
       labels:
         app: feature-dashboard
     spec:
+      imagePullSecrets:
+      - name: dockerhub-creds
       containers:
       - name: frontend
         image: ptote/feature-dashboard:1.0  # Usa tu imagen Docker
