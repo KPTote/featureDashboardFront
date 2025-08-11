@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import loginData from '../../assets/login.json';
+import { environment } from '../../environments/environment';
 import { AuthResponse } from '../../interfaces/dashboard.interface';
 
 @Injectable({
@@ -15,9 +16,11 @@ export class AuthService {
 
   login(email: string, pass: string): Observable<AuthResponse> {
 
-    // return this.http.post<AuthResponse>( environment.urlBase + '/auth/login', { email, password: pass })
+    if (environment.useMockData) {
+      return of(loginData);
+    }
+    return this.http.post<AuthResponse>( environment.urlBase + '/auth/login', { email, password: pass })
 
-    return of(loginData)
 
   }
 }
