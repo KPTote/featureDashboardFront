@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 5. Construye la aplicación para producción
-RUN npm run build -- --configuration=production
+RUN npm run build -- --configuration=production --base-href ./
 
 # ------------- ETAPA 2: Servidor web (Nginx) -------------
 FROM nginx:alpine
