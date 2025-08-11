@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feature-dashboard
+  labels:
+    app: feature-dashboard
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: feature-dashboard
+  template:
+    metadata:
+      labels:
+        app: feature-dashboard
+    spec:
+      containers:
+      - name: frontend
+        image: ptote/feature-dashboard:1.0  # Usa tu imagen Docker
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "200m"
+            memory: "256Mi"
