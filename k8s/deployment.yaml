@@ -18,7 +18,7 @@ spec:
       - name: docker-cred
       containers:
       - name: frontend
-        image: ptote/feature-dahsboard:1.2  # Usa tu imagen Docker
+        image: ptote/feature-dashboard:1.2  # Usa tu imagen Docker
         ports:
         - containerPort: 80
         resources:
